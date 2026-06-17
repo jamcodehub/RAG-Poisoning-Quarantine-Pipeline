@@ -38,5 +38,5 @@ const server = http.createServer((req, res) => {
 // Start the server
 server.listen(PORT, () => {
     console.log(`🛡️ Native Honeypot listener active on http://localhost:${PORT}`);
-    console.log('Waiting for rogue AI telemetry ...');
+    console.log('Waiting for rogue AI telemetry...');
 });
